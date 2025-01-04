@@ -1,0 +1,15 @@
+proxies:
+- name: trojan-Linknet
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: 791ee4c2-aeac-4d1a-9086-c4f97633b785
+  sni: mmx.vpnoir9r.us.kg
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /id15#(ID)+Linknet+Fastnet+🇮🇩
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+

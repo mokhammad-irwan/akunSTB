@@ -1,15 +1,15 @@
 proxies:
-- name: trojan-Linknet
+- name: trojan-github
   type: trojan
   server: 104.18.225.52
   port: 443
-  password: 791ee4c2-aeac-4d1a-9086-c4f97633b785
-  sni: mmx.vpnoir9r.us.kg
+  password: 3tpyOTPZGkypU4ppIuDkZA
+  sni: id3.bvip.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /id15#(ID)+Linknet+Fastnet+🇮🇩
+    path: /trojanws
     headers:
-      Host: mmx.vpnoir9r.us.kg
+      Host: id3.bvip.my.id
   udp: true
 
